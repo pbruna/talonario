@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "talonario"
   gem.require_paths = ["lib"]
   gem.version       = Talonario::VERSION
+  
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'turn'
 end
