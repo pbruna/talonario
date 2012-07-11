@@ -3,9 +3,9 @@ require File.expand_path('../lib/talonario/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Patricio Bruna"]
-  gem.email         = ["pbruna@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["pbruna@itlinux.cl"]
+  gem.description   = %q{Work with Chile SII}
+  gem.summary       = %q{Send and receive Electronic Tributary Documents in Chile}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
