@@ -15,6 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Talonario::VERSION
   
+  gem.add_dependency 'nokogiri'
+  
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'turn'
 end
