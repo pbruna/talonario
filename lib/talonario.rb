@@ -1,7 +1,9 @@
 require "nokogiri"
+require "ostruct"
 require "talonario/version"
 require "talonario/caf"
-require "talonario/dte"
+require "talonario/factura"
+require "talonario/ted"
 
 module Talonario
   # Your code goes here...
