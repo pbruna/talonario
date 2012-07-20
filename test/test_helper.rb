@@ -3,6 +3,9 @@ require 'minitest/pride'
 require 'turn'
 require File.expand_path('../../lib/talonario.rb', __FILE__)
 
+def load_caf_file
+  File.expand_path('../../tmp/FoliosSII76530890331201279940.xml', __FILE__)
+end
 
 def invoice
   require 'ostruct'
